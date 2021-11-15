@@ -1,9 +1,3 @@
-body::before {
-  display: block;
-  content: ' ';
-  height: 60px;
-}
-
 body {
   overflow-x: hidden;
   color: #505962;
@@ -57,13 +51,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-
-.services {
-  position: sticky;
-  bottom: 100px;
-  z-index: -100;
 }
 
 /*============= MEDIA QUERIES =============*/
